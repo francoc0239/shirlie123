@@ -37,3 +37,693 @@ h1{
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
 }
+
+.ghost {
+    animation: fly 15s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly {
+	0% {
+
+		transform: translate(-200%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost2 {
+    animation: fly2 100s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly2 {
+	0% {
+
+		transform: translate(-200%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost3 {
+    animation: fly3 1s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly3 {
+	0% {
+
+		transform: translate(-200%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost4 {
+    animation: fly4 50s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly4 {
+	0% {
+
+		transform: translate(-100%,110vh);
+	}
+
+	12.5% {
+		transform: translate(10vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-20%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-20%,110vh) 
+	}
+}
+
+.ghost5 {
+    animation: fly5 10000s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly5 {
+	0% {
+
+		transform: translate(-150%,110vh);
+	}
+
+	12.5% {
+		transform: translate(10vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-220%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(109vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(210%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost6 {
+    animation: fly6 2s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly6 {
+	0% {
+
+		transform: translate(-70%,110vh);
+	}
+
+	12.5% {
+		transform: translate(20vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-260%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(167vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(67vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost7 {
+    animation: fly7 10s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly7 {
+	0% {
+
+		transform: translate(-670%,110vh);
+	}
+
+	12.5% {
+		transform: translate(167vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-207%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-260%,-120%)
+	}
+
+	50% {
+		transform: translate(160vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(6700%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost8 {
+    animation: fly8 8s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly8 {
+	0% {
+
+		transform: translate(-5%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(160vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(245vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-160%,110vh) 
+	}
+}
+
+.ghost9 {
+    animation: fly9 10s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly9 {
+	0% {
+
+		transform: translate(-190%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost10 {
+    animation: fly10 10s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly10 {
+	0% {
+
+		transform: translate(-190%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost11 {
+    animation: fly11 10s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly11 {
+	0% {
+
+		transform: translate(-190%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost12 {
+    animation: fly12 10s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly12 {
+	0% {
+
+		transform: translate(-190%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost13 {
+    animation: fly13 10s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly13 {
+	0% {
+
+		transform: translate(-190%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost14 {
+    animation: fly14 10s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly14 {
+	0% {
+
+		transform: translate(-190%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.ghost15 {
+    animation: fly15 10s linear infinite;
+    top: 0;
+	left: 0;
+	position: fixed;
+}
+@keyframes fly15 {
+	0% {
+
+		transform: translate(-100%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
+
+.soccer{
+     animation: fly16 20s linear infinite;
+     top: 0;
+	 left: 0;
+	 position: fixed;
+
+}
+
+@keyframes fly16 {
+	0% {
+
+		transform: translate(-100%,110vh);
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) ;
+	}
+
+	25% {
+		transform: translate(-200%,50vh);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%)
+	}
+
+	50% {
+		transform: translate(100vw,50vh) ;
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) ;
+	}
+	75% {
+		transform: translate(200%,100vh) 
+	}
+	87.5% {
+		transform: translate(50vw,-200%) 
+	}
+
+	100% {
+		transform: translate(-200%,110vh) 
+	}
+}
