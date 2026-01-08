@@ -4,3 +4,21 @@ body{
 h1{
     color: red;
 }
+.cat{
+    animation-name: two;
+    animation-iteration-count: infinite;
+    position: fixed;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+@keyframes two{
+    0%{
+        left:0px;
+    }
+    50%{
+        left:1000px;
+    }
+    100%{
+        left:0px;
+    }
+}
