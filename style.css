@@ -1,10 +1,19 @@
 body{
-    background: lightblue;
+    background: #D86477;
 }
 
 h1{
-    color: red;
-    
+    color: #64D8C5;
+	font-family: monospace;
+	font-size: 30px;
+	text-align: center;
+
+}
+p{
+	color: #64D8C5;
+	font-family: monospace;
+	font-size: 15px;
+	font-weight: bold;
 }
 .cat{
     animation-name: two;
@@ -70,14 +79,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -113,14 +122,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -156,14 +165,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -199,14 +208,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-20%,110vh) 
+		transform: translate(-20%,110vh)
 	}
 }
 
@@ -242,14 +251,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(210%,100vh) 
+		transform: translate(210%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -285,14 +294,14 @@ h1{
 		transform: translate(67vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -328,14 +337,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(6700%,100vh) 
+		transform: translate(6700%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -371,14 +380,14 @@ h1{
 		transform: translate(245vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-160%,110vh) 
+		transform: translate(-160%,110vh)
 	}
 }
 
@@ -414,14 +423,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -457,14 +466,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -500,14 +509,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -543,14 +552,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -586,14 +595,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -629,14 +638,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -672,14 +681,14 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
 
@@ -717,13 +726,13 @@ h1{
 		transform: translate(20vw,100vh) ;
 	}
 	75% {
-		transform: translate(200%,100vh) 
+		transform: translate(200%,100vh)
 	}
 	87.5% {
-		transform: translate(50vw,-200%) 
+		transform: translate(50vw,-200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh) 
+		transform: translate(-200%,110vh)
 	}
 }
