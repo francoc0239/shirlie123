@@ -10,10 +10,21 @@ h1{
 
 }
 
-.frontpagelinkk {
+.frontpagelinkk{
+  position: fixed;
+  top: 40px;
+  left: 10px;
+  z-index: 1000;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color:black;
+}
+.frontpagelink{
   position: fixed;
   top: 10px;
-  right: 10px;
+  left: 10px;
   z-index: 1000;
   background-color: white;
   padding: 5px 10px;
@@ -25,7 +36,7 @@ h1{
 p{
 	color: #64D8C5;
 	font-family: monospace;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;
 }
 .cat{
