@@ -1,9 +1,9 @@
 body{
-    background: #D86477;
+    background: #E6E0AC;
 }
 
 h1{
-    color: #64D8C5;
+    color: #451111;
 	font-family: monospace;
 	font-size: 30px;
 	text-align: center;
@@ -13,13 +13,13 @@ h1{
 .frontpagelinkk{
   position: fixed;
   top: 40px;
-  left: 10px;
+  right: 10px;
   z-index: 1000;
   background-color: white;
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
-  color:black;
+  color:#451111;
 }
 .frontpagelink{
   position: fixed;
@@ -30,11 +30,11 @@ h1{
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
-  color:black;
+  color:#451111;
 }
 
 p{
-	color: #64D8C5;
+	color: #451111;
 	font-family: monospace;
 	font-size: 20px;
 	font-weight: bold;
