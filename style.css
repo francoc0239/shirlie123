@@ -1,9 +1,9 @@
 body{
-    background: #99B2DD;
+    background: #F2AFC5;
 }
 
 h1{
-    color: #3A405A;
+    color: #A3302A;
 	font-family: monospace;
 	font-size: 30px;
 	text-align: center;
@@ -34,7 +34,7 @@ h1{
 }
 
 p{
-	color: #3A405A;
+	color: #A3302A;
 	font-family: monospace;
 	font-size: 20px;
 	font-weight: bold;
