@@ -796,3 +796,14 @@ p{
 		transform: translate(-200%,110vh)
 	}
 }
+
+
+
+.imgContainer{
+    float:left;
+}
+
+.imige123{
+    text-align: center;
+    padding: 20px;
+}
