@@ -76,6 +76,9 @@ p{
     }
 }
 
+#shirlie67{
+	margin-right:auto;
+ }
 #shirlie{
     animation-name: spin;
     animation-duration: 4000ms;
