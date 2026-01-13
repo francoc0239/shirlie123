@@ -9,6 +9,19 @@ h1{
 	text-align: center;
 
 }
+.merch{
+	color: #A3302A;
+	font-family: monospace;
+	font-size: 30px;
+	text-align: center;
+	position:fixed;
+	top:20px;
+	left:550px;
+	border:30px solid white;
+	background-color:white;
+	border-radius:30px;
+}
+
 
 .frontpagelinkk{
   position: fixed;
@@ -76,9 +89,11 @@ p{
     }
 }
 
-#shirlie67{
-	margin-right:auto;
- }
+#shirlie67 {
+  position: fixed;
+  left: 850px;
+  top:-20px;
+}
 #shirlie{
     animation-name: spin;
     animation-duration: 4000ms;
