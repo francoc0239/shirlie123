@@ -16,7 +16,7 @@ h1{
 	text-align: center;
 	position:fixed;
 	top:20px;
-	left:550px;
+	left:465px;
 	border:30px solid white;
 	background-color:white;
 	border-radius:30px;
@@ -91,8 +91,9 @@ p{
 
 #shirlie67 {
   position: fixed;
-  left: 850px;
+  left: 800px;
   top:-20px;
+  z-index:1;
 }
 #shirlie{
     animation-name: spin;
@@ -803,7 +804,10 @@ p{
     float:left;
 }
 
-.imige123{
+.image123{
+	position:fixed;
+	top:150px;
+	left:375px;
     text-align: center;
     padding: 20px;
 }
