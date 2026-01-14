@@ -130,7 +130,9 @@ p{
   left: 800px;
   top:-20px;
   z-index:1;
+  transform:rotate(67deg);
 }
+
 #shirlie{
     animation-name: spin;
     animation-duration: 4000ms;
