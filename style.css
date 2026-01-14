@@ -107,6 +107,26 @@ p{
 		opacity:1.0;
 	}
 }
+.class{
+	border:5px solid white;
+	background-color:white;
+	text-align:center;
+	border-radius:30px;
+	position: fixed;
+	bottom:15px;
+	left:300px;
+	width:60%;
+
+
+}
+.grape{
+	color: #A3302A;
+	font-family: monospace;
+	font-size: 15px;
+	margin:5px 5px 5px 5px;
+	padding:1px 1px 1px 1px;
+
+}
 .cat{
     animation-name: two;
     animation-iteration-count: infinite;
