@@ -2,7 +2,7 @@ body{
     background: #ffe8ed;
 }
 
-h1{
+.first{
     color: #A3302A;
 	font-family: monospace;
 	font-size: 30px;
@@ -20,6 +20,15 @@ h1{
 	border:30px solid white;
 	background-color:white;
 	border-radius:30px;
+}
+.socials{
+	border:15px solid white;
+	background-color:white;
+	border-radius:30px;
+	position: fixed;
+	bottom:1px;
+	left:525px;
+
 }
 
 
@@ -51,6 +60,31 @@ p{
 	font-family: monospace;
 	font-size: 20px;
 	font-weight: bold;
+}
+.tiktok{
+	width:20px;
+	margin-left:10px;
+	vertical-align:middle;
+
+}
+.insta{
+	width:20px;
+	margin-left:10px;
+	vertical-align:middle;
+}
+.gmail{
+	width:20px;
+	margin-left:10px;
+	vertical-align:middle;
+}
+
+.orange{
+	color: #A3302A;
+	font-family: monospace;
+	font-size: 15px;
+	margin:5px 5px 5px 5px;
+	padding:1px 1px 1px 1px;
+
 }
 .fade-in{
 	animation-name:fade;
