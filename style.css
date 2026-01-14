@@ -26,8 +26,8 @@ body{
 	background-color:white;
 	text-align:center;
 	border-radius:30px;
-	position:fixed;
-	bottom:20px;
+	position: relative;
+	bottom:70px;
 	left:300px;
 	width:60%;
 
@@ -86,6 +86,7 @@ p{
 	font-size: 15px;
 	margin:5px 5px 5px 5px;
 	padding:1px 1px 1px 1px;
+
 
 }
 .fade-in{
