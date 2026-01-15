@@ -27,10 +27,16 @@ body{
 	text-align:center;
 	border-radius:30px;
 	position: relative;
-	bottom:70px;
+	bottom:30px;
 	left:300px;
 	width:60%;
 
+}
+
+.problem{
+	position:relative;
+	top:400px;
+	text-align:center;
 }
 
 
