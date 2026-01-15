@@ -1,14 +1,38 @@
 body{
-    background: #F2AFC5;
+    background: #ffe8ed;
 }
 
-h1{
+.first{
     color: #A3302A;
 	font-family: monospace;
 	font-size: 30px;
 	text-align: center;
 
 }
+.merch{
+	color: #A3302A;
+	font-family: monospace;
+	font-size: 30px;
+	text-align: center;
+	position:fixed;
+	top:20px;
+	left:465px;
+	border:30px solid white;
+	background-color:white;
+	border-radius:30px;
+}
+.socials{
+	border:5px solid white;
+	background-color:white;
+	text-align:center;
+	border-radius:30px;
+	position: relative;
+	bottom:70px;
+	left:300px;
+	width:60%;
+
+}
+
 
 .frontpagelinkk{
   position: fixed;
@@ -39,6 +63,32 @@ p{
 	font-size: 20px;
 	font-weight: bold;
 }
+.tiktok{
+	width:20px;
+	margin-left:10px;
+	vertical-align:middle;
+
+}
+.insta{
+	width:20px;
+	margin-left:10px;
+	vertical-align:middle;
+}
+.gmail{
+	width:20px;
+	margin-left:10px;
+	vertical-align:middle;
+}
+
+.orange{
+	color: #A3302A;
+	font-family: monospace;
+	font-size: 15px;
+	margin:5px 5px 5px 5px;
+	padding:1px 1px 1px 1px;
+
+
+}
 .fade-in{
 	animation-name:fade;
 	 animation-duration: 1s;
@@ -57,6 +107,26 @@ p{
 		opacity:1.0;
 	}
 }
+.class{
+	border:5px solid white;
+	background-color:white;
+	text-align:center;
+	border-radius:30px;
+	position: fixed;
+	bottom:15px;
+	left:300px;
+	width:60%;
+
+
+}
+.grape{
+	color: #A3302A;
+	font-family: monospace;
+	font-size: 15px;
+	margin:5px 5px 5px 5px;
+	padding:1px 1px 1px 1px;
+
+}
 .cat{
     animation-name: two;
     animation-iteration-count: infinite;
@@ -74,6 +144,14 @@ p{
     100%{
         left:0px;
     }
+}
+
+#shirlie67 {
+  position: fixed;
+  left: 800px;
+  top:-20px;
+  z-index:1;
+  transform:rotate(300deg);
 }
 
 #shirlie{
@@ -777,4 +855,18 @@ p{
 	100% {
 		transform: translate(-200%,110vh)
 	}
+}
+
+
+
+.imgContainer{
+    float:left;
+}
+
+.image123{
+	position:fixed;
+	top:150px;
+	left:375px;
+    text-align: center;
+    padding: 20px;
 }
