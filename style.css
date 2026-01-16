@@ -180,6 +180,12 @@ p{
     to {transform:rotate(360deg);}
 }
 
+.shirlie123 {
+
+	display: block;
+	 margin: auto; 
+}
+
 .ghost {
     animation: fly 15s linear infinite;
     top: 0;
@@ -905,10 +911,27 @@ p{
             /* the spin */
             animation: spon 3s infinite linear;
         }
+<<<<<<< HEAD
         @keyframes spon {
                 from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
         }
+=======
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.9; }
+            50% { transform: scale(1.05); opacity: 1; }
+        }
+
+        /* 3. Main Site Content (Hidden initially for a cleaner reveal) */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        /* .content { */
+        /* } */
+>>>>>>> 07ac4d96b6623b51580e7cd1a5acbf596878869f
 
 
 
