@@ -3,7 +3,7 @@
             const loader = document.getElementById('loading-screen');
 
             // Set your artificial delay (3000ms = 3 seconds)
-            const minimumDelay = 3000;
+            const minimumDelay = 2500;
 
             setTimeout(() => {
                 // Smoothly fade out the loader
