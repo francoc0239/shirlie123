@@ -9,6 +9,11 @@ body{
 	text-align: center;
 
 }
+
+a:hover {
+  color: hotpink;
+}
+
 .merch{
 	color: #A3302A;
 	font-family: monospace;
