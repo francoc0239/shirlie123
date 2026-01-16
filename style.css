@@ -927,6 +927,7 @@ ul {
   padding: 0;
   background-color: white;
   display: flex;
+  border-radius:5px;
 }
 
 ul li a {
