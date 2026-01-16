@@ -173,6 +173,7 @@ p{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transition: rotate(36000deg);
+	margin: auto;
 }
 
 @keyframes spin {
@@ -917,10 +918,8 @@ p{
             font-family: sans-serif;
         }
 
-        .content {
-        
-
-        }
+        /* .content { */
+        /* } */
 
 
 
