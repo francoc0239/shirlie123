@@ -173,13 +173,17 @@ p{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     transition: rotate(36000deg);
-	display: block;
-	margin: auto;
 }
 
 @keyframes spin {
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
+}
+
+.shirlie123{
+
+	display: block;
+	margin: auto;
 }
 
 .ghost {
