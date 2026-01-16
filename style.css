@@ -890,7 +890,7 @@ p{
             left: 0;
             width: 100%;
             height: 100vh;
-            background-color: #ffffff; /* Match your brand background */
+            background-color: #ffe8ed;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -898,29 +898,20 @@ p{
             z-index: 9999; /* Stay on top of everything */
             transition: opacity 0.8s ease-in-out; /* Smooth fade-out duration */
         }
-        /* 2. Your Specific Picture Style */
+        /* 2. style of picture */
         #loading-image {
             width: 200px; /* Adjust size as needed */
             height: auto;
-            /* Optional: Add a subtle pulsing animation so it feels "active" */
-            animation: pulse 2s infinite ease-in-out;
+            /* the spin */
+            animation: spon 3s infinite linear;
         }
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 0.9; }
-            50% { transform: scale(1.05); opacity: 1; }
-        }
-
-        /* 3. Main Site Content (Hidden initially for a cleaner reveal) */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
+        @keyframes spon {
+                from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
         }
 
-        .content {
-        
 
-        }
+
 
 
 
