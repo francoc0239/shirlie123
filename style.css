@@ -19,12 +19,14 @@ a:hover {
 	font-family: monospace;
 	font-size: 30px;
 	text-align: center;
-	position:fixed;
-	top:20px;
-	left:465px;
-	border:30px solid white;
+	position:relative;
+
+	border: 2px solid white;
 	background-color:white;
 	border-radius:30px;
+	padding: 30px 30px; /* Adjust padding for size */
+    width: fit-content; /* Shrinks to fit content */
+    margin: 0 auto; /* Centers block element horizontally */
 }
 .socials{
 	border:5px solid white;
@@ -163,13 +165,27 @@ p{
         left:0px;
     }
 }
+.center{
+	  display: flex;
+  justify-content: center;
+
+}
+.container67{
+position: relative; /* to position the image absolutely inside */
+  display: inline-block;
+
+}
 
 #shirlie67 {
-  position: fixed;
-  left: 800px;
-  top:-20px;
-  z-index:1;
-  transform:rotate(300deg);
+  position: absolute;
+  top: 50%;
+  right: -75px; /* move it outside the border slightly */
+  transform: translateY(-50%) rotate(300deg);
+  width: 150px; /* or your preferred size */
+  height: auto;
+  z-index: 2;
+
+
 }
 
 #shirlie{
