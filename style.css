@@ -1,5 +1,6 @@
 body{
     background: #ffe8ed;
+	padding:20px 20px 20px 20px;
 }
 
 .first{
@@ -33,7 +34,7 @@ a:hover {
 	background-color:white;
 	text-align:center;
 	border-radius:30px;
-	position: relative;
+	position: absolute;
 	bottom:30px;
 	left:300px;
 	width:60%;
@@ -41,8 +42,9 @@ a:hover {
 }
 
 .problem{
-	position:relative;
+	position:absolute;
 	top:400px;
+	padding:20px 20px 20px 20px;
 	text-align:center;
 }
 
@@ -83,6 +85,8 @@ p{
 	font-weight: bold;
 	text-align:center;
 }
+
+
 .tiktok{
 	width:20px;
 	margin-left:10px;
@@ -127,26 +131,17 @@ p{
 		opacity:1.0;
 	}
 }
-.class{
-	border:5px solid white;
-	background-color:white;
-	text-align:center;
-	border-radius:30px;
-	position: fixed;
-	bottom:15px;
-	left:300px;
-	width:60%;
 
 
+
+
+
+.content{
+    flex: 1;
 }
-.grape{
-	color: #A3302A;
-	font-family: monospace;
-	font-size: 15px;
-	margin:5px 5px 5px 5px;
-	padding:1px 1px 1px 1px;
 
-}
+
+
 .cat{
     animation-name: two;
     animation-iteration-count: infinite;
@@ -900,15 +895,16 @@ position: relative; /* to position the image absolutely inside */
 
 
 .imgContainer{
-    float:left;
+	float:left;
 }
 
 .image123{
-	position:fixed;
+	position:absolute;
 	top:150px;
 	left:375px;
     text-align: center;
     padding: 20px;
+	margin:auto;
 }
 /* 1. Loading Screen Container */
         #loading-screen {
@@ -944,11 +940,11 @@ position: relative; /* to position the image absolutely inside */
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding:  0 !important;
   background-color: white;
-  display: flex;
-  border-radius:5px;
+  display: flex !important;
+  border-radius:5px !important;
 }
 
 ul li a {
