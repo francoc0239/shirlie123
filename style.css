@@ -11,8 +11,17 @@ body{
 
 }
 
+
 a:hover {
   color: hotpink;
+}
+.dw{
+
+	display:flex;
+	justify-content:left;
+	align-items:center;
+	min-height:10vh;
+
 }
 
 .merch{
@@ -29,17 +38,49 @@ a:hover {
     width: fit-content; /* Shrinks to fit content */
     margin: 0 auto; /* Centers block element horizontally */
 }
+/* this is for the border that holds the links*/
 .socials{
 	border:5px solid white;
 	background-color:white;
 	text-align:center;
 	border-radius:30px;
-	position: absolute;
-	bottom:30px;
-	left:300px;
 	width:60%;
 
 }
+.orange{
+	color: #A3302A;
+	font-family: monospace;
+	font-size: 15px;
+	margin:5px 5px 5px 5px;
+	padding:1px 1px 1px 1px;
+
+
+}
+.links{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:10vh;
+
+}
+.tiktok{
+	width:20px;
+	margin-left:10px;
+	vertical-align:middle;
+
+}
+.insta{
+	width:20px;
+	margin-left:10px;
+	vertical-align:middle;
+}
+.gmail{
+	width:20px;
+	margin-left:10px;
+	vertical-align:middle;
+}
+
+
 
 .problem{
 	position:absolute;
@@ -104,15 +145,6 @@ p{
 	vertical-align:middle;
 }
 
-.orange{
-	color: #A3302A;
-	font-family: monospace;
-	font-size: 15px;
-	margin:5px 5px 5px 5px;
-	padding:1px 1px 1px 1px;
-
-
-}
 .fade-in{
 	animation-name:fade;
 	 animation-duration: 1s;
@@ -201,7 +233,7 @@ position: relative; /* to position the image absolutely inside */
 	display: block;
 	 margin: auto;
 }
-
+/* This is the animation for button */
 .ghost {
     animation: fly 15s linear infinite;
     top: 0;
