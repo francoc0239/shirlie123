@@ -45,8 +45,10 @@ a:hover {
 	text-align:center;
 	border-radius:30px;
 	width:60%;
+	margin: 0 auto;
 
 }
+
 .orange{
 	color: #A3302A;
 	font-family: monospace;
@@ -87,6 +89,7 @@ a:hover {
 	top:400px;
 	padding:20px 20px 20px 20px;
 	text-align:center;
+
 }
 
 
@@ -125,6 +128,8 @@ p{
 	font-size: 20px;
 	font-weight: bold;
 	text-align:center;
+	word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 
