@@ -1043,7 +1043,24 @@ ul li a:hover {
 
 }
 
+/* Product Grid */
 
+.small-container {
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 67px;
+}
+.col-4 {
+	flex-basis: 25%;
+	padding:10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+
+}
+
+.col-4 img {
+	width:100%;
+}
 
 
 
