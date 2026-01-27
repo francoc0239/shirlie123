@@ -212,7 +212,7 @@ position: relative; /* to position the image absolutely inside */
 
 #shirlie67 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   right: -75px; /* move it outside the border slightly */
   transform: translateY(-50%) rotate(300deg);
   width: 150px; /* or your preferred size */
