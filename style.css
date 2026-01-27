@@ -71,6 +71,15 @@ a:hover {
 	vertical-align:middle;
 
 }
+.home{
+	width:45px;
+	vertical-align:middle;
+
+}
+.shopping{
+	width:45px;
+	vertical-align:middle;
+}
 .insta{
 	width:20px;
 	margin-left:10px;
@@ -212,10 +221,10 @@ position: relative; /* to position the image absolutely inside */
 
 #shirlie67 {
   position: absolute;
-  top: 40%;
+  top: 45%;
   right: -75px; /* move it outside the border slightly */
   transform: translateY(-50%) rotate(300deg);
-  width: 150px; /* or your preferred size */
+  width: 145px; /* or your preferred size */
   height: auto;
   z-index: 2;
 
@@ -984,13 +993,22 @@ ul {
   background-color: white;
   display: flex !important;
   border-radius:5px !important;
-  position: absolute !important;
   top:20px;
-  justify-content:left !important;
+  left:1px;
+  justify-content:flex-start !important;
 align-items:center !important;
 min-height:5 !important;
  box-shadow: 0 2px 5px rgba(0,0,0,0.50);
  margin-top: 20px;
+ margin-left:1px !important;
+ margin-right: 50px !important;
+ overflow:hidden;
+}
+.page{
+	align-items:center !important;
+	text-align:center !important;
+	margin-left:10px;
+
 }
 
 ul li a {
@@ -1002,6 +1020,9 @@ ul li a {
 
 ul li a:hover {
   background-color: lightgray;
+  width:auto;
+  height:auto;
+
 }
 
 
