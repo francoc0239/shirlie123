@@ -1006,7 +1006,7 @@ ul {
   margin-top: 20px;
   margin-left:1px !important;
   margin-right: 50px !important;
-  overflow:hidden:
+  overflow:hidden;
 }
 #page{
 	align-items:center !important;
@@ -1048,7 +1048,8 @@ ul li a:hover {
 .small-container {
 	max-width: 1080px;
 	margin: auto;
-	padding-left: 67px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 .col-4 {
 	flex-basis: 25%;
