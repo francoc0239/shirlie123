@@ -947,7 +947,10 @@ position: relative; /* to position the image absolutely inside */
 }
 
 .image123{
-	position:absolute;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:10vh;
 	top:150px;
 	left:375px;
     text-align: center;
