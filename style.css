@@ -12,6 +12,7 @@ body{
 }
 
 
+
 a:hover {
   color: hotpink;
 }
@@ -992,25 +993,39 @@ position: relative; /* to position the image absolutely inside */
 ul {
   list-style-type: none;
   margin: 0 !important;
-  padding:  0 !important;
+  padding: 0 !important;
   background-color: white;
   display: flex !important;
   border-radius:5px !important;
   top:20px;
   left:1px;
-  justify-content:flex-start !important;
-align-items:center !important;
-min-height:5 !important;
- box-shadow: 0 2px 5px rgba(0,0,0,0.50);
- margin-top: 20px;
- margin-left:1px !important;
- margin-right: 50px !important;
- overflow:hidden;
+  justify-content: space-between;
+  align-items:center !important;
+  min-height:5 !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.50);
+  margin-top: 20px;
+  margin-left:1px !important;
+  margin-right: 50px !important;
+  overflow:hidden:
 }
-.page{
+#page{
 	align-items:center !important;
 	text-align:center !important;
-	margin-left:10px;
+	margin:0 !important;
+	justify-content:flex-start!important;
+display: flex !important;
+justify-content: space-between !important;
+ margin-top: 20px;
+  margin-left:10px !important;
+  margin-right: 50px !important;
+}
+#right{
+	align-items:center !important;
+	text-align:center !important;
+	margin:0 !important;
+	justify-content:right!important;
+display: flex !important;
+justify-content: space-between !important;
 
 }
 
