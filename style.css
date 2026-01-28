@@ -32,7 +32,6 @@ a:hover {
 	text-align: center;
 	position:relative;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.500);
-
 	border: 2px solid white;
 	background-color:white;
 	border-radius:30px;
@@ -1038,7 +1037,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: lightgray;
+  background-color: pink;
   width:auto;
   height:auto;
 
