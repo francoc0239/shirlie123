@@ -10,6 +10,10 @@ body{
 	text-align: center;
 
 }
+.stuff{
+	color:#A3302A;
+	font-family:monospace;
+}
 
 
 
@@ -1040,6 +1044,7 @@ ul li a:hover {
   background-color: pink;
   width:auto;
   height:auto;
+  color:#A3302A !important;
 
 }
 
