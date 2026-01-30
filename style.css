@@ -365,6 +365,8 @@ ul li a:hover {
 	margin: auto;
 	padding-left: 25px;
 	padding-right: 25px;
+	display: grid;
+	grid-template-columns: auto auto auto;
 }
 .col-4 {
 	flex-basis: 25%;
