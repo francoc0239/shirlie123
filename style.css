@@ -254,7 +254,133 @@ position: relative; /* to position the image absolutely inside */
 	display: block;
 	 margin: auto;
 }
-/* This is the animation for button */
+
+
+
+.imgContainer{
+	float:left;
+}
+
+.image123{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:10vh;
+	top:150px;
+	left:375px;
+    text-align: center;
+    padding: 20px;
+	margin:auto;
+}
+/* 1. Loading Screen Container */
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: #ffe8ed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999; /* Stay on top of everything */
+            transition: opacity 0.8s ease-in-out; /* Smooth fade-out duration */
+        }
+        /* 2. style of picture */
+        #loading-image {
+            width: 200px; /* Adjust size as needed */
+            height: auto;
+            /* the spin */
+            animation: spon 3s infinite linear;
+        }
+        @keyframes spon {
+                from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+        }
+
+
+
+/* Navigation Bar Styles */
+
+
+ul {
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: white;
+  display: flex !important;
+  border-radius:5px !important;
+  top:20px;
+  left:1px;
+  justify-content: space-between;
+  align-items:center !important;
+  min-height:5 !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.50);
+  margin-top: 20px;
+  margin-left:1px !important;
+  margin-right: 50px !important;
+  overflow:hidden;
+}
+#page{
+	align-items:center !important;
+	text-align:center !important;
+	margin:0 !important;
+	justify-content:flex-start!important;
+display: flex !important;
+justify-content: space-between !important;
+ margin-top: 20px;
+  margin-left:10px !important;
+  margin-right: 50px !important;
+}
+#right{
+	align-items:center !important;
+	text-align:center !important;
+	margin:0 !important;
+	justify-content:right!important;
+display: flex !important;
+justify-content: space-between !important;
+
+}
+
+ul li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: pink;
+  width:auto;
+  height:auto;
+  color:#A3302A !important;
+
+}
+
+/* Product Grid */
+
+.small-container {
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.col-4 {
+	flex-basis: 25%;
+	padding:10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+
+}
+
+.col-4 img {
+	width: 30%;
+}
+
+
+
+/*ALL THE ANIMATION*/
 .ghost {
     animation: fly 15s linear infinite;
     top: 0;
@@ -943,129 +1069,6 @@ position: relative; /* to position the image absolutely inside */
 	100% {
 		transform: translate(-200%,110vh)
 	}
-}
-
-
-
-.imgContainer{
-	float:left;
-}
-
-.image123{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	min-height:10vh;
-	top:150px;
-	left:375px;
-    text-align: center;
-    padding: 20px;
-	margin:auto;
-}
-/* 1. Loading Screen Container */
-        #loading-screen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            background-color: #ffe8ed;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999; /* Stay on top of everything */
-            transition: opacity 0.8s ease-in-out; /* Smooth fade-out duration */
-        }
-        /* 2. style of picture */
-        #loading-image {
-            width: 200px; /* Adjust size as needed */
-            height: auto;
-            /* the spin */
-            animation: spon 3s infinite linear;
-        }
-        @keyframes spon {
-                from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
-        }
-
-
-
-/* Navigation Bar Styles */
-
-
-ul {
-  list-style-type: none;
-  margin: 0 !important;
-  padding: 0 !important;
-  background-color: white;
-  display: flex !important;
-  border-radius:5px !important;
-  top:20px;
-  left:1px;
-  justify-content: space-between;
-  align-items:center !important;
-  min-height:5 !important;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.50);
-  margin-top: 20px;
-  margin-left:1px !important;
-  margin-right: 50px !important;
-  overflow:hidden;
-}
-#page{
-	align-items:center !important;
-	text-align:center !important;
-	margin:0 !important;
-	justify-content:flex-start!important;
-display: flex !important;
-justify-content: space-between !important;
- margin-top: 20px;
-  margin-left:10px !important;
-  margin-right: 50px !important;
-}
-#right{
-	align-items:center !important;
-	text-align:center !important;
-	margin:0 !important;
-	justify-content:right!important;
-display: flex !important;
-justify-content: space-between !important;
-
-}
-
-ul li a {
-  display: block;
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: pink;
-  width:auto;
-  height:auto;
-  color:#A3302A !important;
-
-}
-
-/* Product Grid */
-
-.small-container {
-	max-width: 1080px;
-	margin: auto;
-	padding-left: 25px;
-	padding-right: 25px;
-}
-.col-4 {
-	flex-basis: 25%;
-	padding:10px;
-	min-width: 200px;
-	margin-bottom: 50px;
-
-}
-
-.col-4 img {
-	width: 30%;
 }
 
 
