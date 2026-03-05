@@ -311,7 +311,7 @@ position: relative; /* to position the image absolutely inside */
  }
 
  .card {
-	 background-color: white;
+	background-color: white;
   	display: flex !important;
   	border-radius:5px !important;
  }
