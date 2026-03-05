@@ -305,19 +305,7 @@ position: relative; /* to position the image absolutely inside */
 
  /* container stuffs  for products */
 
- .card-img-top{
-	width: 200px;
-	height: auto;
- }
-
- .card {
-	background-color: white;
-  	display: flex !important;
-  	border-radius:5px !important;
- }
-
-
-
+ 
 
 
 
