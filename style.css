@@ -1,5 +1,5 @@
 body{
-    background: #ffe8ed;
+    background: #ffe8ed !important;
 	padding:20px 20px 20px 20px;
 }
 
@@ -305,7 +305,7 @@ position: relative; /* to position the image absolutely inside */
 
  /* container stuffs  for products */
 
- 
+
 
 
 
