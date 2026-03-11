@@ -377,7 +377,10 @@ ul li a:hover {
 
 /* Product Grid */
 
-
+.container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 
 
