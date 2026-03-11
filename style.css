@@ -377,7 +377,7 @@ ul li a:hover {
 
 /* Product Grid */
 
-.small-container {
+.container {
 	max-width: 1080px;
 	margin: auto;
 	padding-left: 25px;
@@ -385,7 +385,7 @@ ul li a:hover {
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
-.col-4 {
+.col-3 {
 	flex-basis: 25%;
 	padding:10px;
 	min-width: 200px;
@@ -393,9 +393,38 @@ ul li a:hover {
 
 }
 
-.col-4 img {
+.col-3 img {
 	width: 30%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
