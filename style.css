@@ -377,25 +377,7 @@ ul li a:hover {
 
 /* Product Grid */
 
-.container {
-	max-width: 1080px;
-	margin: auto;
-	padding-left: 25px;
-	padding-right: 25px;
-	display: grid;
-	grid-template-columns: auto auto auto;
-}
-.col-3 {
-	flex-basis: 25%;
-	padding:10px;
-	min-width: 200px;
-	margin-bottom: 50px;
 
-}
-
-.col-3 img {
-	width: 30%;
-}
 
 
 
