@@ -380,6 +380,7 @@ ul li a:hover {
 .container-fluid {
     padding-top: 100px;
     padding-bottom: 100px;
+	margin: 5px 5px 5px 5px;
 }
 
 
