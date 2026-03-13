@@ -384,6 +384,10 @@ ul li a:hover {
     margin: 100px, !important;
 }
 
+.card{
+	margin:10px;
+}
+
 
 
 
@@ -1106,8 +1110,6 @@ ul li a:hover {
 		transform: translate(-200%,110vh)
 	}
 }
-.card{
-	margin:10px;
-}
+
 
 
