@@ -378,7 +378,7 @@ ul li a:hover {
 /* Product Grid */
 
 .col-3 {
-    padding: 100px;
+    padding: 100px, !important;
 }
 
 
