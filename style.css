@@ -406,12 +406,12 @@ ul {
 }
 
 #right2 {
-	margin-left: 30px !important;
+	margin-left: 20px !important;
 }
 
 ul li a {
 	display: block;
-	color: black;
+	color: black;f
 	padding: 14px 16px;
 	text-decoration: none;
 }
