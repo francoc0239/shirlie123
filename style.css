@@ -1,186 +1,205 @@
-body{
-    background: #ffe8ed !important;
-	padding:20px 20px 20px 20px;
+body {
+	background: #ffe8ed !important;
+	padding: 20px 20px 20px 20px;
 }
 
-.first{
-    color: #A3302A;
+.first {
+	color: #A3302A;
 	font-family: monospace;
 	font-size: 30px;
 	text-align: center;
 
 }
-.stuff{
-	color:#A3302A;
-	font-family:monospace;
+
+.stuff {
+	color: #A3302A;
+	font-family: monospace;
 }
 
 
 
 a:hover {
-  color: hotpink;
-}
-.dw{
-
-	display:flex;
-	justify-content:left;
-	align-items:center;
-	min-height:10vh;
-
+	color: hotpink;
 }
 
-.merch{
+.dw {
+
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	min-height: 10vh;
+
+}
+
+.merch {
 	color: #A3302A;
 	font-family: monospace;
 	font-size: 30px;
 	text-align: center;
-	position:relative;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.500);
+	position: relative;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.500);
 	border: 2px solid white;
-	background-color:white;
-	border-radius:30px;
-	padding: 30px 30px; /* Adjust padding for size */
-    width: fit-content; /* Shrinks to fit content */
-    margin: 0 auto; /* Centers block element horizontally */
-}
-/* this is for the border that holds the links*/
-.socials{
-	border:5px solid white;
-	background-color:white;
-	text-align:center;
-	border-radius:30px;
-	width:60%;
+	background-color: white;
+	border-radius: 30px;
+	padding: 30px 30px;
+	/* Adjust padding for size */
+	width: fit-content;
+	/* Shrinks to fit content */
 	margin: 0 auto;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.50);
+	/* Centers block element horizontally */
+}
+
+/* this is for the border that holds the links*/
+.socials {
+	border: 5px solid white;
+	background-color: white;
+	text-align: center;
+	border-radius: 30px;
+	width: 60%;
+	margin: 0 auto;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.50);
 
 }
 
-.orange{
+.orange {
 	color: #A3302A;
 	font-family: monospace;
 	font-size: 15px;
-	margin:5px 5px 5px 5px;
-	padding:1px 1px 1px 1px;
+	margin: 5px 5px 5px 5px;
+	padding: 1px 1px 1px 1px;
 
 
 }
-.links{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	min-height:10vh;
 
-}
-.tiktok{
-	width:20px;
-	margin-left:10px;
-	vertical-align:middle;
-
-}
-.home{
-	width:45px;
-	vertical-align:middle;
-
-}
-.shopping{
-	width:45px;
-	vertical-align:middle;
-}
-.insta{
-	width:20px;
-	margin-left:10px;
-	vertical-align:middle;
-}
-.gmail{
-	width:20px;
-	margin-left:10px;
-	vertical-align:middle;
-}
-
-
-
-.problem{
-	position:absolute;
-	top:400px;
-	padding:20px 20px 20px 20px;
-	text-align:center;
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 10vh;
 
 }
 
+.tiktok {
+	width: 20px;
+	margin-left: 10px;
+	vertical-align: middle;
 
-.frontpagelinkk{
-  position: fixed;
-  top: 40px;
-  right: 10px;
-  z-index: 1000;
-  background-color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  color:#451111;
-}
-.frontpagelink{
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 1000;
-  background-color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  color:#451111;
 }
 
-p{
+.home {
+	width: 45px;
+	vertical-align: middle;
+
+}
+
+.shopping {
+	width: 45px;
+	vertical-align: middle;
+}
+
+.insta {
+	width: 20px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.gmail {
+	width: 20px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+
+
+.problem {
+	position: absolute;
+	top: 400px;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+
+}
+
+
+.frontpagelinkk {
+	position: fixed;
+	top: 40px;
+	right: 10px;
+	z-index: 1000;
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #451111;
+}
+
+.frontpagelink {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	z-index: 1000;
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #451111;
+}
+
+p {
 	color: #A3302A;
 	font-family: monospace;
 	font-size: 20px;
 	font-weight: bold;
 }
-.pen{
+
+.pen {
 	color: #A3302A;
 	font-family: monospace;
 	font-size: 20px;
 	font-weight: bold;
-	text-align:center;
+	text-align: center;
 	word-wrap: break-word;
-  overflow-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 
-.tiktok{
-	width:20px;
-	margin-left:10px;
-	vertical-align:middle;
+.tiktok {
+	width: 20px;
+	margin-left: 10px;
+	vertical-align: middle;
 
 }
-.insta{
-	width:20px;
-	margin-left:10px;
-	vertical-align:middle;
-}
-.gmail{
-	width:20px;
-	margin-left:10px;
-	vertical-align:middle;
+
+.insta {
+	width: 20px;
+	margin-left: 10px;
+	vertical-align: middle;
 }
 
-.fade-in{
-	animation-name:fade;
-	 animation-duration: 1s;
-	 animation-iteration-count: infinite;
+.gmail {
+	width: 20px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.fade-in {
+	animation-name: fade;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
 
 
 }
-@keyframes fade{
-	0%{
-		opacity:0.1
+
+@keyframes fade {
+	0% {
+		opacity: 0.1
 	}
-	50%{
-		opacity:0.5
+
+	50% {
+		opacity: 0.5
 	}
-	100%{
-		opacity:1.0;
+
+	100% {
+		opacity: 1.0;
 	}
 }
 
@@ -188,122 +207,146 @@ p{
 
 
 
-.content{
-    flex: 1;
+.content {
+	flex: 1;
 }
 
 
 
-.cat{
-    animation-name: two;
-    animation-iteration-count: infinite;
-    position: fixed;
-    animation-duration: 5s;
-    animation-timing-function: ease;
+.cat {
+	animation-name: two;
+	animation-iteration-count: infinite;
+	position: fixed;
+	animation-duration: 5s;
+	animation-timing-function: ease;
 }
-@keyframes two{
-    0%{
-        left:0px;
-    }
-    50%{
-        left:1000px;
-    }
-    100%{
-        left:0px;
-    }
+
+@keyframes two {
+	0% {
+		left: 0px;
+	}
+
+	50% {
+		left: 1000px;
+	}
+
+	100% {
+		left: 0px;
+	}
 }
-.center{
-	  display: flex;
-  justify-content: center;
-  white-space: nowrap;
+
+.center {
+	display: flex;
+	justify-content: center;
+	white-space: nowrap;
 
 
 }
-.container67{
-position: relative; /* to position the image absolutely inside */
-  display: inline-block;
+
+.container67 {
+	position: relative;
+	/* to position the image absolutely inside */
+	display: inline-block;
 
 }
 
 #shirlie67 {
-  position: absolute;
-  top: 45%;
-  right: -75px; /* move it outside the border slightly */
-  transform: translateY(-50%) rotate(300deg);
-  width: 145px; /* or your preferred size */
-  height: auto;
-  z-index: 2;
+	position: absolute;
+	top: 45%;
+	right: -75px;
+	/* move it outside the border slightly */
+	transform: translateY(-50%) rotate(300deg);
+	width: 145px;
+	/* or your preferred size */
+	height: auto;
+	z-index: 2;
 
 }
 
-#shirlie{
-    animation-name: spin;
-    animation-duration: 4000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    transition: rotate(36000deg);
+#shirlie {
+	animation-name: spin;
+	animation-duration: 4000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	transition: rotate(36000deg);
 }
 
 @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 .shirlie123 {
 
 	display: block;
-	 margin: auto;
+	margin: auto;
 }
 
 
 
-.imgContainer{
-	float:left;
+.imgContainer {
+	float: left;
 }
 
-.image123{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	min-height:10vh;
-	top:150px;
-	left:375px;
-    text-align: center;
-    padding: 20px;
-	margin:auto;
+.image123 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 10vh;
+	top: 150px;
+	left: 375px;
+	text-align: center;
+	padding: 20px;
+	margin: auto;
 }
+
 /* 1. Loading Screen Container */
-        #loading-screen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            background-color: #ffe8ed;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999; /* Stay on top of everything */
-            transition: opacity 0.8s ease-in-out; /* Smooth fade-out duration */
-        }
-        /* 2. style of picture */
-        #loading-image {
-            width: 200px; /* Adjust size as needed */
-            height: auto;
-            /* the spin */
-            animation: spon 3s infinite linear;
-        }
-        @keyframes spon {
-                from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
-        }
+#loading-screen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #ffe8ed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
+	/* Stay on top of everything */
+	transition: opacity 0.8s ease-in-out;
+	/* Smooth fade-out duration */
+}
+
+/* 2. style of picture */
+#loading-image {
+	width: 200px;
+	/* Adjust size as needed */
+	height: auto;
+	/* the spin */
+	animation: spon 3s infinite linear;
+}
+
+@keyframes spon {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
 
 
 
 
 
- /* container stuffs  for products */
+/* container stuffs  for products */
 
 
 
@@ -322,67 +365,73 @@ position: relative; /* to position the image absolutely inside */
 
 
 ul {
-  list-style-type: none;
-  margin: 0 !important;
-  padding: 0 !important;
-  background-color: white;
-  display: flex !important;
-  border-radius:5px !important;
-  top:20px;
-  left:1px;
-  justify-content: space-between;
-  align-items:center !important;
-  min-height:5 !important;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.50);
-  margin-top: 20px;
-  margin-left:1px !important;
-  margin-right: 50px !important;
-  overflow:hidden;
+	list-style-type: none;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-color: white;
+	display: flex !important;
+	border-radius: 5px !important;
+	top: 20px;
+	left: 1px;
+	justify-content: space-between;
+	align-items: center !important;
+	min-height: 5 !important;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.50);
+	margin-top: 20px;
+	margin-left: 1px !important;
+	margin-right: 50px !important;
+	overflow: hidden;
 }
-#page{
-	align-items:center !important;
-	text-align:center !important;
-	margin:0 !important;
-	justify-content:flex-start!important;
-display: flex !important;
-justify-content: space-between !important;
- margin-top: 20px;
-  margin-left:10px !important;
-  margin-right: 50px !important;
-}
-#right{
-	align-items:center !important;
-	text-align:center !important;
-	margin:0 !important;
-	justify-content:right!important;
-display: flex !important;
-justify-content: space-between !important;
 
+#page {
+	align-items: center !important;
+	text-align: center !important;
+	margin: 0 !important;
+	justify-content: flex-start !important;
+	display: flex !important;
+	justify-content: space-between !important;
+	margin-top: 20px;
+	margin-left: 10px !important;
+	margin-right: 50px !important;
+}
+
+#right {
+	align-items: center !important;
+	text-align: center !important;
+	margin: 0 !important;
+	justify-content: right !important;
+	display: flex !important;
+	justify-content: space-between !important;
+
+}
+
+#right2 {
+	margin-left: 20px !important;
 }
 
 ul li a {
-  display: block;
-  color: black;
-  padding: 14px 16px;
-  text-decoration: none;
+	display: block;
+	color: black;f
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: pink;
-  width:auto;
-  height:auto;
-  color:#A3302A !important;
+	background-color: pink;
+	width: auto;
+	height: auto;
+	color: #A3302A !important;
 
 }
 
 /* Product Grid */
 
 .col-3 {
-    margin: 100px, !important;
+	margin: 100px, !important;
 }
 
-.card{
-	margin:10px;
+.card {
+	margin: 10px;
 }
 
 
@@ -419,694 +468,738 @@ ul li a:hover {
 
 /*ALL THE ANIMATION*/
 .ghost {
-    animation: fly 15s linear infinite;
-    top: 0;
+	animation: fly 15s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly {
 	0% {
 
-		transform: translate(-200%,110vh);
+		transform: translate(-200%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost2 {
-    animation: fly2 100s linear infinite;
-    top: 0;
+	animation: fly2 100s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly2 {
 	0% {
 
-		transform: translate(-200%,110vh);
+		transform: translate(-200%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost3 {
-    animation: fly3 1s linear infinite;
-    top: 0;
+	animation: fly3 1s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly3 {
 	0% {
 
-		transform: translate(-200%,110vh);
+		transform: translate(-200%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost4 {
-    animation: fly4 50s linear infinite;
-    top: 0;
+	animation: fly4 50s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly4 {
 	0% {
 
-		transform: translate(-100%,110vh);
+		transform: translate(-100%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(10vw,-120%) ;
+		transform: translate(10vw, -120%);
 	}
 
 	25% {
-		transform: translate(-20%,50vh);
+		transform: translate(-20%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-20%,110vh)
+		transform: translate(-20%, 110vh)
 	}
 }
 
 .ghost5 {
-    animation: fly5 10000s linear infinite;
-    top: 0;
+	animation: fly5 10000s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly5 {
 	0% {
 
-		transform: translate(-150%,110vh);
+		transform: translate(-150%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(10vw,-120%) ;
+		transform: translate(10vw, -120%);
 	}
 
 	25% {
-		transform: translate(-220%,50vh);
+		transform: translate(-220%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(109vw,50vh) ;
+		transform: translate(109vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(210%,100vh)
+		transform: translate(210%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost6 {
-    animation: fly6 2s linear infinite;
-    top: 0;
+	animation: fly6 2s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly6 {
 	0% {
 
-		transform: translate(-70%,110vh);
+		transform: translate(-70%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(20vw,-120%) ;
+		transform: translate(20vw, -120%);
 	}
 
 	25% {
-		transform: translate(-260%,50vh);
+		transform: translate(-260%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(167vw,50vh) ;
+		transform: translate(167vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(67vw,100vh) ;
+		transform: translate(67vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost7 {
-    animation: fly7 10s linear infinite;
-    top: 0;
+	animation: fly7 10s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly7 {
 	0% {
 
-		transform: translate(-670%,110vh);
+		transform: translate(-670%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(167vw,-120%) ;
+		transform: translate(167vw, -120%);
 	}
 
 	25% {
-		transform: translate(-207%,50vh);
+		transform: translate(-207%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-260%,-120%)
+		transform: translate(-260%, -120%)
 	}
 
 	50% {
-		transform: translate(160vw,50vh) ;
+		transform: translate(160vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(6700%,100vh)
+		transform: translate(6700%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost8 {
-    animation: fly8 8s linear infinite;
-    top: 0;
+	animation: fly8 8s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly8 {
 	0% {
 
-		transform: translate(-5%,110vh);
+		transform: translate(-5%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(160vw,50vh) ;
+		transform: translate(160vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(245vw,100vh) ;
+		transform: translate(245vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-160%,110vh)
+		transform: translate(-160%, 110vh)
 	}
 }
 
 .ghost9 {
-    animation: fly9 10s linear infinite;
-    top: 0;
+	animation: fly9 10s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly9 {
 	0% {
 
-		transform: translate(-190%,110vh);
+		transform: translate(-190%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost10 {
-    animation: fly10 10s linear infinite;
-    top: 0;
+	animation: fly10 10s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly10 {
 	0% {
 
-		transform: translate(-190%,110vh);
+		transform: translate(-190%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost11 {
-    animation: fly11 10s linear infinite;
-    top: 0;
+	animation: fly11 10s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly11 {
 	0% {
 
-		transform: translate(-190%,110vh);
+		transform: translate(-190%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost12 {
-    animation: fly12 10s linear infinite;
-    top: 0;
+	animation: fly12 10s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly12 {
 	0% {
 
-		transform: translate(-190%,110vh);
+		transform: translate(-190%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost13 {
-    animation: fly13 10s linear infinite;
-    top: 0;
+	animation: fly13 10s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly13 {
 	0% {
 
-		transform: translate(-190%,110vh);
+		transform: translate(-190%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost14 {
-    animation: fly14 10s linear infinite;
-    top: 0;
+	animation: fly14 10s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly14 {
 	0% {
 
-		transform: translate(-190%,110vh);
+		transform: translate(-190%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
 .ghost15 {
-    animation: fly15 10s linear infinite;
-    top: 0;
+	animation: fly15 10s linear infinite;
+	top: 0;
 	left: 0;
 	position: fixed;
 }
+
 @keyframes fly15 {
 	0% {
 
-		transform: translate(-100%,110vh);
+		transform: translate(-100%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
 
-.soccer{
-     animation: fly16 20s linear infinite;
-     top: 0;
-	 left: 0;
-	 position: fixed;
+.soccer {
+	animation: fly16 20s linear infinite;
+	top: 0;
+	left: 0;
+	position: fixed;
 
 }
 
 @keyframes fly16 {
 	0% {
 
-		transform: translate(-100%,110vh);
+		transform: translate(-100%, 110vh);
 	}
 
 	12.5% {
-		transform: translate(120vw,-120%) ;
+		transform: translate(120vw, -120%);
 	}
 
 	25% {
-		transform: translate(-200%,50vh);
+		transform: translate(-200%, 50vh);
 	}
 
 	37.5% {
-		transform: translate(-200%,-120%)
+		transform: translate(-200%, -120%)
 	}
 
 	50% {
-		transform: translate(100vw,50vh) ;
+		transform: translate(100vw, 50vh);
 	}
 
 	62.5% {
-		transform: translate(20vw,100vh) ;
+		transform: translate(20vw, 100vh);
 	}
+
 	75% {
-		transform: translate(200%,100vh)
+		transform: translate(200%, 100vh)
 	}
+
 	87.5% {
-		transform: translate(50vw,-200%)
+		transform: translate(50vw, -200%)
 	}
 
 	100% {
-		transform: translate(-200%,110vh)
+		transform: translate(-200%, 110vh)
 	}
 }
-
-
-
